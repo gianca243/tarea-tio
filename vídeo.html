@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -38,23 +38,23 @@
     		<div class="collapse navbar-collapse" id="navbarSupportedContent">
       		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         		<li class="nav-item">
-          		<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          		<a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
         		</li>
         		
         		<li class="nav-item">
-          		<a class="nav-link" href="empresa.html">Empresa</a>
+          		<a class="nav-link" href="./empresa.html">Empresa</a>
         		</li>
         		<li class="nav-item">
-          		<a class="nav-link" href="servicios.html">Servicios</a> 
+          		<a class="nav-link" href="./servicios.html">Servicios</a> 
         		</li> 
         		<li class="nav-item">
-          		<a class="nav-link" href="galeria.html">Galería</a>
+          		<a class="nav-link" href="./galeria.html">Galería</a>
         		</li> 
         		<li class="nav-item">
-          		<a class="nav-link" href="video.html">Vídeo</a>
+          		<a class="nav-link" href="./video.html">Vídeo</a>
         		</li> 
         		<li class="nav-item">
-          		<a class="nav-link" href="contactenos.html">Contáctenos</a> 
+          		<a class="nav-link" href="./contactenos.html">Contáctenos</a> 
         		</li> 
         		
         		<li class="nav-item">
@@ -103,10 +103,10 @@
  		 				      </div> 
  		 				    
  		 				    <div class="col-lg-3"> 
- 		 				    <div id="envideo" onclick="mostrarvideo(¨video1¨)">Vídeo 1</div>
- 		 				    <div id="envideo" onclick="mostrarvideo(¨video2¨)">Vídeo 2</div> 
- 		 				    <div id="envideo" onclick="mostrarvideo(¨video3¨)">Vídeo 3</div> 
- 		 				    <div id="envideo" onclick="mostrarvideo(¨video4¨)">Vídeo 4</div>  
+ 		 				    <div id="envideo" onclick="mostrarvideo('video1')">Vídeo 1</div>
+ 		 				    <div id="envideo" onclick="mostrarvideo('video2')">Vídeo 2</div> 
+ 		 				    <div id="envideo" onclick="mostrarvideo('video3')">Vídeo 3</div> 
+ 		 				    <div id="envideo" onclick="mostrarvideo('video4')">Vídeo 4</div>  
  		 		         </div> 
  		 		  </div> 
   
@@ -124,32 +124,32 @@
 <script>
  function mostrarvideo(dato){
   switch (dato){
-  		case ¨video1¨:
-  		document.getElementById(¨video1¨).style.display = ¨block¨;
-  		document.getElementById(¨video2¨).style.display = ¨none¨;
-  		document.getElementById(¨video3¨).style.display = ¨none¨;
-  		document.getElementById(¨video4¨).style.display = ¨none¨;
+  		case 'video1':
+  		document.getElementById('video1').style.display = 'block';
+  		document.getElementById('video2').style.display = 'none';
+  		document.getElementById('video3').style.display = 'none';
+  		document.getElementById('video4').style.display = 'none';
   		break;
   		
-  		case ¨video2¨:
-  		document.getElementById(¨video2¨).style.display = ¨block¨;
-  		document.getElementById(¨video1¨).style.display = ¨none¨;
-  		document.getElementById(¨video3¨).style.display = ¨none¨;
-  		document.getElementById(¨video4¨).style.display = ¨none¨;
+  		case 'video2':
+  		document.getElementById('video2').style.display = 'block';
+  		document.getElementById('video1').style.display = 'none';
+  		document.getElementById('video3').style.display = 'none';
+  		document.getElementById('video4').style.display = 'none';
   		break;
   		
-  		case ¨video3¨:
-  		document.getElementById(¨video3¨).style.display = ¨block¨;
-  		document.getElementById(¨video2¨).style.display = ¨none¨;
-  		document.getElementById(¨video1¨).style.display = ¨none¨;
-  		document.getElementById(¨video4¨).style.display = ¨none¨;
+  		case 'video3':
+  		document.getElementById('video3').style.display = 'block';
+  		document.getElementById('video2').style.display = 'none';
+  		document.getElementById('video1').style.display = 'none';
+  		document.getElementById('video4').style.display = 'none';
   		break;
   		
-  		case ¨video4¨:
-  		document.getElementById(¨video4¨).style.display = ¨block¨;
-  		document.getElementById(¨video2¨).style.display = ¨none¨;
-  		document.getElementById(¨video3¨).style.display = ¨none¨;
-  		document.getElementById(¨video1¨).style.display = ¨none¨;
+  		case 'video4':
+  		document.getElementById('video4').style.display = 'block';
+  		document.getElementById('video2').style.display = 'none';
+  		document.getElementById('video3').style.display = 'none';
+  		document.getElementById('video1').style.display = 'none';
   		break;
   		
   		}
