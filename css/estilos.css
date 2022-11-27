@@ -1,0 +1,173 @@
+body{
+	background-image: url(../img/slide.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: verdana;
+	font-size: 15px;
+} 
+
+
+
+nav{ 
+	background-color: #008000;
+	color: black;
+	padding: 10px;
+	font-size: 17px;
+	border-radius: 15px;
+} 
+
+nav img{
+	height: auto;
+	width: 40%;
+	border-radius: 5px;
+}
+
+
+header{ 
+	height: 300px;
+	color: white;
+}
+
+aside{
+	background-color: white;
+	color: darkblue;
+	padding: 10px;
+	border-radius: 15px;
+	width: 100%
+}
+
+* aside article img{
+	margin:50px;
+	padding:0;
+}
+
+aside article h3{
+	margin-left: 180px;
+	margin-top: 20px;
+
+}
+aside article h3 p{
+	margin-top:00px;
+	margin-left: 60px;
+
+}
+
+aside img{
+  border-radius: 15px;
+}
+
+aside div div img {
+		border-radius: 30px;
+		padding: 10px;
+}
+aside div div img center{   
+		color: #b5b5b5;
+		font-size: 20px;
+		text-align: justify;
+		margin-top: 30px;
+		margin-left: auto; 
+		margin-right: auto;
+}
+
+
+aside div p{
+	width: 80%;
+	font-size: 17px;
+	margin-top: 05px;
+
+} 
+
+section aside{
+	background-color: white;
+
+}
+
+section div{
+    background-color: ;
+
+}
+
+	
+section{
+	background-color: darkblue;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 17px;
+	
+}
+section article h4{
+	
+	color: darkblue;
+	margin-top: 30px;
+	margin-left:400px;
+}
+
+section section{
+	background-color: white;
+
+}
+
+section article p{
+	color: darkblue;
+	margin-top:40px;
+	margin-left:80px;
+	margin-right:80px;
+ 
+}
+
+
+
+
+footer{
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+} 
+footer aside div p{
+	margin-left:20px;   
+
+}
+
+#contacto{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+} 
+
+#imagen{
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+	border-radius: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+	margin: 7px;
+}
+
+#imagen img{
+	border-radius: 10px;
+	width: 100%;
+} 
+
+#imagen img:hover{
+	filter: grayscale(1);
+	transition-property: filter;
+	transition-duration: ls;
+	width: 85%;
+
+
+}
+
+#envideo{
+	text-aling: center;
+	font-weight: bold;
+	border-radius; 5px;
+	cursor: pointer;
+	
+}
+#envideo:hover{
+	background-color: gray;
+	color: white;
+}
+
